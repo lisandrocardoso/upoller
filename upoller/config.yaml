@@ -1,0 +1,16 @@
+pid_file: ./proxypolice.pid
+notify_email: lisandroec@gmail.com
+
+poller_interval: 10
+poller_threshold: 2
+poller_timeout: 10
+
+poller_proxy_url: proxy.corp.globant.com
+poller_proxy_port: 3128
+
+poller_urls:
+  - http://www.globant.com
+  - http://www.lanacion.com.ar
+  - http://mail.google.com
+
+log_file: proxypolice_{:%Y%d%m}.log
